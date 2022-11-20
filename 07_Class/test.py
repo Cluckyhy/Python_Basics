@@ -1,0 +1,12 @@
+person = {"name": "陈慧亿", "age": 22, "job": "学生", "gender": "男", "aa": "aaa", "bbb": "bbb", "ccc": "ccc"}
+print(len(person))
+print(len({"nan": 12, "ss": 32, "cx": 23}))
+person.popitem()
+print(person)
+person.popitem()
+print(person)
+person.popitem()
+print(person)
+str = person.popitem()
+print(person)
+print(str)
